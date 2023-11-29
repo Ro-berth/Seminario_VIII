@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" type="text/css" href=".\css\main.css" />
+    <title>Seminário Temático VIII</title>
+  </head>
+
+  <body>
+    <header id="header">
+      <div class="logo">
+        <img src="!\imag\email-svgrepo-com.png" alt=" logo da pagina" />
+      </div>
+      <nav id="nav">
+        <button
+          aria-label="Abrir Menu"
+          id="btn-mobile"
+          aria-haspopup="true"
+          aria-controls="menu"
+          aria-expanded="false"
+        >
+          Menu
+          <span id="hamburger"></span>
+        </button>
+        <ul id="menu" role="menu">
+          <li><a href="/Seminario/Cliente/Cliente.html">Lista Cliente</a></li>
+          <li>
+            <a href="/Seminario/Cobranca/CadastroCobranca.html"
+              >Cadastra Cobrança</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- 
+      
+      
+     -->
+    <main>
+      <div class="container">
+        <!-- <div class="form-image">
+          <img src="\imag\foto.png" alt="" />
+        </div> -->
+        <div class="form">
+          <form action="#">
+            <div class="form-header">
+              <div class="title">
+                <h1>Cadastro de Cliente</h1>
+              </div>
+              <!-- <div class="login-button">
+                <button><a href="#">Entrar</a></button>
+              </div> -->
+            </div>
+
+            <div class="input-group">
+              <div class="input-box">
+                <label for="firstname">Nome</label>
+                <input
+                  id="firstname"
+                  type="text"
+                  name="firstname"
+                  placeholder="Digite seu nome"
+                  required
+                />
+              </div>
+
+              <div class="input-box">
+                <label for="email">E-mail</label>
+                <input
+                  id="email"
+                  type="email"
+                  name="email"
+                  placeholder="Digite seu e-mail"
+                  required
+                />
+              </div>
+
+              <div class="input-box">
+                <label for="number">Celular</label>
+                <input
+                  id="number"
+                  type="text"
+                  name="number"
+                  placeholder="(xx) xxxx-xxxx"
+                  required
+                />
+              </div>
+
+              <div class="input-box">
+                <label for="cep">CPF</label>
+                <input
+                  id="cpf"
+                  type="text"
+                  name="cpf"
+                  placeholder="000.000.000-00"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="continue-button">
+              <button onclick="createUser()">Cadastra</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <!-- 
+  
+ -->
+    <footer>
+      <div id="footer_content">
+        <ul class="footer_list">
+          <li>
+            <h1>Contato</h1>
+          </li>
+          <li>
+            <a
+              href="https://www.google.com/url?q=https%3A%2F%2Fapi.whatsapp.com%2Fsend%3Fphone%3D5541995210086%26text%3DOl%25C3%25A1%252C%2520podem%2520me%2520ajudar%253F%2520Acessei%2520a%2520p%25C3%25A1gina%2520de%2520voc%25C3%25AAs%2520%2528engaged.com.br%2529&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw034qmPNvqXrf8fAC9Gk0wM"
+              class="footer_link"
+            >
+              WhatsApp: (98) 4002-8922</a
+            >
+          </li>
+          <li>
+            <a href="mailto:cest.ma.gov.com.br" class="footer_link"
+              >Email: cest.com.br</a
+            >
+          </li>
+          <li>
+            <p class="footer_link" dir="ltr">Av Casemiro Júnio</p>
+          </li>
+          <li>
+            <p class="footer_link" dir="ltr">Número, 12</p>
+          </li>
+          <li>
+            <p class="footer_link" dir="ltr">Paço do Lumiar , MA</p>
+          </li>
+        </ul>
+
+        <div id="footer_contacts">
+          <h1>redes sociais</h1>
+          <div id="footer_media_social">
+            <a href="#" class="footer_link" id="instragram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#" class="footer_link" id="linkedin">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="#" class="footer_link" id="whatsapp">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src=".\js\main.js"></script>
+  </body>
+</html>

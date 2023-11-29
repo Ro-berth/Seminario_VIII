@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" type="text/css" href="/Seminario/Cliente/Cliente.css" />
+    <title>Cliente</title>
+  </head>
+<body>
+
+  <header id="header">
+    <div class="logo">
+      <img src="!\imag\email-svgrepo-com.png" alt=" logo da pagina" />
+    </div>
+    <nav id="nav">
+      <button
+        aria-label="Abrir Menu"
+        id="btn-mobile"
+        aria-haspopup="true"
+        aria-controls="menu"
+        aria-expanded="false"
+      >
+        Menu
+        <span id="hamburger"></span>
+      </button>
+      <ul id="menu" role="menu">
+        <li style="color: white;"><a href="/Seminario/index.html">Cadastra Cliente</a></li>
+        <li style="color: white;"><a href="/Seminario/Cobranca/CadastroCobranca.html"> Cadastra Cobrança</a></li>
+      </ul>
+    </nav>
+  </header>
+    <!-- 
+    
+    
+   -->
+
+  <main>
+    <div class="container">
+      <div class="header">
+        <span>Cadastro de Cliente</span>
+        <button onclick="openModal()" id="new">Alterar</i></button>
+     </div>
+
+      <div class="divTable">
+        <table>
+          <thead>
+            <tr>
+              <th>Id</th>
+              <th>Nome</th>
+              <th>CPF</th>
+              <th>Email</th>
+              <th>Telefone</th>
+            </tr>
+          </thead>
+          <tbody id="table-body">
+          </tbody>
+        </table>
+      </div>
+
+
+      <div class="modal-container">
+        <div class="modal">
+          <form>
+            <label for="m-id">ID</label>
+            <input id="customer_id" type="number"  required />
+            
+            <label for="nome">Nome</label>
+            <input id="nome" type="text" required />
+
+            <label for="cpf">CPF</label>
+            <input id="cpf" type="text" required />
+
+            <label for="email">Email</label>
+            <input id="email" type="text" required />
+
+            <label for="telefone" >Telefone</label>
+            <input id="telefone" type="text"/>
+
+            <button onclick="updateUser()">Alterar</button>
+            <button onclick="deleteUser()">Deletar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="Cliente.js"></script>
+</body>
+</html>
