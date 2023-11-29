@@ -5,7 +5,8 @@
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Nosifer&size=35&pause=1000&color=6A5ACD&center=verdadeiro&vCenter=verdadeiro&repeat=verdadeiro&random=falso&width=613&height=60&lines=Semin%C3%A1rio+Tem%C3%A1tico+VIII" alt="Typing SVG" /></a>
 </div>
 
-
-# Apresetação do seminario tematico
+<div align="center">
+<h1>Apresetação do seminario tematico</h1> 
+</div>
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=&height=120&section=footer"/>
